@@ -29,7 +29,7 @@ import Settings from "./components/Technicianpanel/Settings";
 import Home from "./pages/Home";
 import ServiceRequest from "./pages/ServiceRequest";
 import UserLayout from "./UserLayout";
-import "./app.css";
+import "./App.css";
 
 // Admin Panel Layout
 const AdminLayout = () => (

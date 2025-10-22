@@ -1,0 +1,39 @@
+.technician-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: calc(100vw - 260px); /* Adjust to avoid sidebar overlap */
+    margin-left: 260px; /* Offset the sidebar */
+    padding: 10px;
+    background: #ffffff;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px; /* Reduced spacing */
+  }
+  
+  .map {
+    height: 85vh; /* Set appropriate height */
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent extra scrolling */
+  }
+  
+  /* Prevent unnecessary scrollbars */
+  body, html {
+    overflow: hidden;
+  }
+  
+  /* Improve Popup Readability */
+  .leaflet-popup-content {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

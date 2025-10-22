@@ -1,0 +1,193 @@
+/* src/components/technicianpanel/Profile.css */
+
+.profile-container {
+  padding: 40px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: #2d3436;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.profile-container h2 {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.profile-left {
+  flex: 0 0 160px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2d3436;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.status-tag {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.status-tag.available {
+  background-color: #dff9fb;
+  color: #0984e3;
+}
+
+.status-tag.unavailable {
+  background-color: #ffeaa7;
+  color: #d35400;
+}
+
+.toggle-btn {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.toggle-btn:hover {
+  background-color: #74b9ff;
+}
+
+.profile-right {
+  flex: 1;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-header h3 {
+  font-size: 22px;
+  color: #2d3436;
+}
+
+.edit-btn {
+  background: none;
+  border: 1px solid #b2bec3;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #636e72;
+}
+
+.edit-btn:hover {
+  background-color: #f1f2f6;
+}
+
+.profile-right p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.skills {
+  margin-top: 15px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-tag {
+  background-color: #dfe6e9;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.modal-box h3 {
+  margin-bottom: 1rem;
+}
+
+.modal-box label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.modal-box input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.skill-edit-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

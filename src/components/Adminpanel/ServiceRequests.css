@@ -1,0 +1,151 @@
+/* Container styles */
+.sr-container {
+  margin-left: 250px; /* Adjust to match your sidebar width */
+  padding: 20px;
+  min-height: 100vh;
+  background: white;
+  color: rgb(33, 32, 32);
+  transition: margin-left 0.3s ease;
+position: relative;
+right: -100px;
+}
+
+.sr-container_2{
+  margin-left: 300px;
+}
+/* Collapsible Sidebar */
+.sidebar-collapsed .container {
+  margin-left: 80px; /* Adjust if sidebar collapses */
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Ensure table doesn't get cut off */
+  background: #292929;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Header */
+.table-header {
+  background-color: #525151;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  
+}
+
+/* Table Cell */
+.table-cell {
+  padding: 12px;
+  border-bottom: 1px solid #444;
+  text-align: left;
+  font-size: 14px;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+b{
+  color: #fcf6f6;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0; /* Adjust for smaller screens */
+    padding: 10px;
+  }
+  .table-container {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .table-cell {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+/* Dropdown (Status, Technician) */
+/* Status and Technician Dropdown Styles */
+.status-select, .technician-select {
+width: 160px;
+background: #333;
+color: white;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #555;
+cursor: pointer;
+transition: 0.3s;
+}
+
+/* Make selected text white */
+.status-select .MuiSelect-select, .technician-select .MuiSelect-select {
+color: white;
+}
+
+/* Menu items inside dropdown */
+.MuiMenuItem-root {
+background: #333;
+color: white;
+}
+
+/* Highlight on hover */
+.MuiMenuItem-root:hover {
+background: #444;
+}
+
+/* For the selected menu item */
+.Mui-selected {
+background-color: #555 !important;
+color: white;
+}
+
+/* Payment Status */
+.payment-paid {
+  color: #0f0;
+  font-weight: bold;
+}
+
+.payment-unpaid {
+  color: #f00;
+  font-weight: bold;
+}
+
+/* Action Buttons */
+.cancel-button {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.cancel-button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

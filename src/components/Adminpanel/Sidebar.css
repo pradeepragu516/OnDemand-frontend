@@ -1,0 +1,75 @@
+/* Sidebar Styling */
+.sidebar2 {
+    width: 250px;
+    height: 100vh;
+    background-color: #4B49AC; /* Urban Company theme */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+ 
+    transition: all 0.3s ease;
+}
+
+/* Sidebar Hover Effect */
+
+
+/* Sidebar Menu */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 15px;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    font-size: 16px;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+    background-color: #3A388C; /* Highlight active items */
+}
+
+/* Icons */
+.sidebar-link .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Logout Button */
+.logout-btn {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.logout-btn:hover {
+    background-color: #D9534F;
+}
+
+/* Sidebar Toggle Icon */
+.menu-dots {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+}

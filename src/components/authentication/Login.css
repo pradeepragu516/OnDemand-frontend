@@ -1,0 +1,163 @@
+/* 🌟 Full Page Background */
+/* 🌟 Full Page Background */
+.login-container1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+/* 🎨 Background Overlay with imported image */
+.background-overlay2 {
+    position: absolute;
+    top: 10;
+    left: 9;
+    width: 102%;
+    height: 102%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.6);
+    z-index: -1;
+}
+
+  
+  /* 📦 Glassmorphic Login Box */
+  .login-box1 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    color: white;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* 🔹 Headings */
+  .login-box1 h2 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  .login-box1 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  
+  /* 📩 Input Fields */
+  .input-group1 {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .input-group1 label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .input-group1 input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+  }
+  
+  .input-group1 input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* 🔒 Password Field with Toggle */
+  .password-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  .password-input input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+  }
+  
+  .password-input span {
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  /* 🎯 Buttons */
+  .btn-login1, .btn-guest {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+  }
+  
+  .btn-login1 {
+    background: #ff5733;
+    color: white;
+  }
+  
+  .btn-login1:hover {
+    background: #d84315;
+  }
+  
+  .btn-guest {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
+  .btn-guest:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+ 
+  
+  /* 📌 Register Link */
+  .register-link1 {
+    margin-top: 10px;
+  }
+  
+  .register-link1 a {
+    color: #d84315;
+    font-weight: bold;
+  }
+  
+  .register-link1 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ✨ Fade In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

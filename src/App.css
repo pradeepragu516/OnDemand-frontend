@@ -1,0 +1,127 @@
+@import "tailwindcss";
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: white;
+} */
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* .sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #4B49AC;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+} */
+
+.main-content {
+  flex-grow: 1;
+ 
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Responsive Fix */
+/* @media (max-width: 768px) {
+  .sidebar {
+      width: 200px;
+  }
+  .main-content {
+      margin-left: 00px;
+  }
+} */
+
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+} */
+
+/* .app-container1 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-content1 {
+  flex-grow: 1;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  
+ 
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+} */
+
+/* Optional: custom scrollbar for webkit browsers */
+/* .main-content1::-webkit-scrollbar {
+  width: 4px;
+}
+
+.main-content1::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+} */
+
+
+
+
+/* Hide scrollbar */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* ✅ Allow vertical scrolling */
+}
+
+  /* background-color: #121212; */
+
+
+
+/* html, body, #root {
+
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: white;
+} */
+
+
+
+.navbar{
+    background-color: black;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-y: auto; /* ✅ Enable vertical scrolling */
+  scrollbar-width: none; /* Optional: hides scrollbar in Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Optional: hides scrollbar in WebKit browsers */
+}

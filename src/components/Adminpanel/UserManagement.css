@@ -1,0 +1,108 @@
+.user-management-container {
+  margin-left: 250px;
+  padding: 30px;
+  min-height: 100vh;
+  background: #eae8e8;
+  color: #333;
+  transition: margin-left 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-management-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.user-table td {
+  color: #444;
+  font-size: 14px;
+}
+
+.status-select {
+  width: 150px;
+  padding: 8px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.status-select:hover {
+  background: #555;
+}
+
+.refund-button {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.refund-button:hover {
+  background-color: #d43f1f;
+  transform: scale(1.05);
+}
+
+.refund-processed {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.refund-pending {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .user-management-container {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 12px;
+  }
+
+  .status-select {
+    width: 120px;
+  }
+}

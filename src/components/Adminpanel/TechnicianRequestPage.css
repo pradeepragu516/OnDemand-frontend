@@ -1,0 +1,59 @@
+.tech-request-page {
+    padding: 30px;
+    background-color: #ffffff;
+    min-height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .request-table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  .request-table th,
+  .request-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .approve-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 14px;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .approve-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .reject-btn:hover {
+    background-color: #e53935;
+  }
+    

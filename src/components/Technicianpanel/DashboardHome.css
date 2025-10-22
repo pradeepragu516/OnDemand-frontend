@@ -1,0 +1,249 @@
+/* .dashboard-home1 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  color: #333;
+  overflow-x: hidden;
+} */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.dashboard-body1 {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.left-column {
+  flex: 3;
+}
+
+.right-column {
+  flex: 1.5;
+}
+
+.service-gallery {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.service-box {
+  width: 120px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 10px;
+}
+
+.service-box img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.assigned-jobs table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.assigned-jobs th,
+.assigned-jobs td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.assigned-jobs th {
+  background-color: #f1f1f1;
+}
+
+.status {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.status.pending {
+  color: #856404;
+}
+
+.status.in-progress {
+  color: #0c5460;
+}
+
+.status.completed {
+  color: #155724;
+}
+
+.status.cancelled {
+  color: #721c24;
+}
+
+.stats-box,
+.add-tech-box,
+.earnings-box,
+.ratings-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.circle-chart {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.circle-chart svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke: #6c63ff;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+}
+
+.chart-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.chart-text span {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+.chart-text small {
+  font-size: 12px;
+  color: #777;
+}
+
+.chart-text .deactivated {
+  color: #e39b3d;
+}
+
+.add-tech-box a {
+  color: #6c63ff;
+  text-decoration: underline;
+}
+
+.tech-img {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  color: #6c63ff;
+}
+
+.earnings-info p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.ratings-box .rating-value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffc107;
+  text-align: center;
+}
+
+.ratings-box .stars {
+  font-size: 24px;
+  text-align: center;
+  margin: 6px 0;
+  color: #ffc107;
+}
+
+.ratings-box .stars .faded {
+  color: #ddd;
+}
+
+.rating-desc {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.schedule-table table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.schedule-table th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+.schedule-table td {
+  font-size: 15px;
+}
+
+.schedule-table .pending {
+  color: #e39b3d;
+  font-weight: bold;
+}
+
+.schedule-table .in-progress {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.schedule-table .completed {
+  color: #28a745;
+  font-weight: bold;
+}
